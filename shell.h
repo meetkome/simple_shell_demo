@@ -82,7 +82,7 @@ char *_strcpy(char *dest, char *source);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 char *_memset(char *s, char byt, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
-[Oint free_data(sh_t *);
+int free_data(sh_t *);
 
 /* ----------Tools prototype-------------*/
 void *fill_an_array(void *a, int el, unsigned int len);
